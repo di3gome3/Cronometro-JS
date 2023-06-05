@@ -80,7 +80,7 @@ function saveTime(){
   res.textContent = formatTime(minutes) + ' : ' + formatTime(seconds) + ' : ' + formatMiliseconds(miliseconds)
 
 }
-///funcção para formatar tempo
+
 function formatTime(time) {
   return time < 10 ? "0" + time : time;
 }
